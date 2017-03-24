@@ -3,7 +3,7 @@
 @section('conteudo')
 <div class="divesqpendencia">
     <label>Serviços Pendentes</label>
-    <a href="/pendencia/adicionar" class="button success">
+    <a href="/pendencia" class="button success">
         <i class="fa fa-plus-circle"></i> Adicionar
     </a>
     <table class="table">

@@ -10,11 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('inicial');
-});
-//Route::get('/', ['uses' => 'contatoController@index']);
-//Route::post('/', ['uses' => 'contatoController@cadastrar']);
+
+Route::get('/', ['uses' => 'pendenciaController@index']);
+Route::get('/pendencia', ['uses' => 'pendenciaController@formulario']);
+Route::get('/atendimento', ['uses' => 'atendimentoController@index']);
 
 Route::get('/listar', ['uses' => 'contatoController@lista']);
 Route::get('/listarajax' , ['uses' => 'contatoController@listarajax']);

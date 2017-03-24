@@ -1,9 +1,23 @@
+.navbar,.navbar-default
+{
+  background-color: #000000;
+}
+#navLateral
+{
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  float: left;
+}
+ul li a {
+  display: block;
+  color:#fff;
+}
 .divprincipal
 {
   height: 80%;
-  width: 80%;
-  position: absolute;
-  margin-left: 10%;
+  position: relative;
+  float: right;
 }
 .divesq
 {
